@@ -66,7 +66,7 @@ Or you can also call them jobs. So we only have one stage here. But typically a 
 
 # Jenkins Architecture
 
-## What is really happening when you run this Jenkins job?
+## What is realy happening when you run this Jenkins job?
 
 - At a minimum, the Jenkins architecture contains the `Jenkins server`, which is also called a `controller`, and a `Jenkins agent`, sometimes also called a `node`. The `Jenkins controller` manages the execution of the pipeline and saves the results. The controller knows what needs to be done, but does not do it itself. When a `stage` needs to be executed, it will find a `Jenkins agent` to actually run the job. It is like in the James Bond movies.
 
